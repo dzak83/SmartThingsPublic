@@ -17,7 +17,7 @@ definition(
     name: "Smart AR Home",
     namespace: "BinaryBanana",
     author: "Binary Banana LLC",
-    description: "Smart AR Home app",
+    description: "Your gateway into augmented reality in your home",
     category: "Convenience",
     iconUrl: "http://smartarhome.com/SmartThingsIcon/1024pxLogo.png",
     iconX2Url: "http://smartarhome.com/SmartThingsIcon/1024pxLogo.png",
