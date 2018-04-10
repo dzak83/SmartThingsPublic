@@ -12,6 +12,18 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
+ *  Publish the app
+ *   Sign in into your SmartThings portal: https://graph.api.smartthings.com/
+ *   Navigate to 'My SmartApps' and click on 'New SmartApp'
+ *   Switch the tab to "From Code"
+ *   Open Smart AR Home app code: https://github.com/dzak83/SmartThingsPublic/blob/master/smartapps/com-smartarhome/smartarhome.src/smart-ar-home.groovy
+ *   Copy and paste it into your new app on SmartThings portal. Create and then publish it using "For Me" option.
+ *  
+ *  Authenticate
+ *   In the SmartThings portal, open Smart AR Home app and click on 'App Settings'
+ *   Scroll down to OAuth and enable it. Click Update to confirm.
+ *   Page should refresh and you should now see values for 'OAuth Client ID' and 'OAuth Client Secret'
+ *   Copy and paste the values into the Smart AR Home app to continue setup process.
  */
 definition(
     name: "Smart AR Home",
