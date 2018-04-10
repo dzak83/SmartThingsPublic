@@ -1,4 +1,4 @@
-# SmartThings Public GitHub Repo for Smart AR Home app
+# Smart AR Home app setup
 
 Until SmartThings will accept our app as official one and publish in the marketplace, please follow the steps below to manually add it to your smart apps.
 
