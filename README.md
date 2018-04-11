@@ -2,14 +2,11 @@
 
 Smart AR Home needs a way to connect with your SmartThings devices. To enable that connection, please follow the steps below to manually publish our SmartApp on your SmartThings hub.
 
-### Publish the app
 1. Sign in into your SmartThings portal: https://graph.api.smartthings.com/
 2. Navigate to 'My SmartApps' and click on 'New SmartApp'
 3. Switch the tab to "From Code"
 4. Open Smart AR Home app code: https://github.com/dzak83/SmartThingsPublic/blob/master/smartapps/com-smartarhome/smartarhome.src/smart-ar-home.groovy 
 5. Copy and paste it into your new app on SmartThings portal. Create and then publish it using "For Me" option.
-
-### Authenticate
 6. In the SmartThings portal, open Smart AR Home app and click on 'App Settings'
 7. Scroll down to OAuth and enable it. Click Update to confirm.
 8. Page should refresh and you should now see values for 'OAuth Client ID' and 'OAuth Client Secret'
