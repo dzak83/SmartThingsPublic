@@ -10,7 +10,7 @@ Smart AR Home needs a way to connect with your SmartThings devices. To enable th
 6. In the SmartThings portal, open Smart AR Home app and click on 'App Settings'
 7. Scroll down to OAuth and enable it. Click Update to confirm.
 8. Page should refresh and you should now see values for 'OAuth Client ID' and 'OAuth Client Secret'
-9. Copy and paste the values into the Smart AR Home app to continue setup process.
+9. Copy and paste the values into the Smart AR Home app to continue setup process. Again, copy and paste them, typing these values will take ages :)
 
 Done!
 
