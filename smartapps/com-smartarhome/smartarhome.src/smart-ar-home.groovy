@@ -86,6 +86,16 @@ mappings {
       GET: "setLevelStatus"
     ]
   }
+  path("/light/on/:id") {
+    action: [
+      GET: "turnOnLight"
+    ]
+  }
+  path("/light/off/:id") {
+    action: [
+      GET: "turnOffLight"
+    ]
+  }
   path("/doorlocks/lock/:id") {
     action: [
       GET: "lockDoorLock"
@@ -192,6 +202,29 @@ def setLevelStatus() {
         } else {
         	device.setLevel(level.toInteger())
         	return [result_action: "200", Level: device.currentValue('level')]
+        }
+}
+
+//light
+def turnOnLight() {
+    def device = switchlevels.find { it.id == params.id }
+        if (!device) {
+            httpError(404, "Device not found")
+        } else {
+            device.on();
+                  
+            return [Device_id: params.id, result_action: "200"]
+        }
+    }
+
+def turnOffLight() {
+    def device = switchlevels.find { it.id == params.id }
+        if (!device) {
+            httpError(404, "Device not found")
+        } else {
+            device.off();
+                  
+            return [Device_id: params.id, result_action: "200"]
         }
 }
 
@@ -358,4 +391,3 @@ def turnOffSwitch() {
             return [Device_id: params.id, result_action: "200"]
         }
 }
-
