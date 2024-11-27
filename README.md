@@ -16,9 +16,3 @@ Smart AR Home needs a way to connect with your SmartThings devices. To enable th
 
 Done!
 
----
-
-More info and contact
-
-* Twitter: https://twitter.com/BinaryBanana
-* WWW: http://SmartARHome.com
